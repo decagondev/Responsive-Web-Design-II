@@ -151,3 +151,29 @@ footer {
   margin: 40px 0 20px;
   font-size: 1.6rem;
 }
+
+/* responsive tablet styles */
+
+@media (max-width: @tabletBreakPoint) {
+    
+  /* tablet header styles */
+  .container {
+    max-width: 800px;
+    width: 100%;
+
+    .logo {
+      order: -1;
+      margin: auto;
+      margin-top: 28px;
+    }
+  }
+
+  header {
+    flex-wrap: wrap;
+    width: 100%;
+
+    nav {
+      width: 90%;
+    }
+  }
+}
