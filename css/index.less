@@ -155,7 +155,6 @@ footer {
 /* responsive tablet styles */
 
 @media (max-width: @tabletBreakPoint) {
-    
   /* tablet header styles */
   .container {
     max-width: 800px;
@@ -174,6 +173,21 @@ footer {
 
     nav {
       width: 90%;
+    }
+  }
+
+  /* tablet cta styles */
+
+  .cta {
+    flex-direction: column;
+    width: 100%;
+
+    .cta-text {
+      margin: auto;
+    }
+
+    img {
+      display: none;
     }
   }
 }
